@@ -1,0 +1,117 @@
+@media screen and (max-width: 850px){
+    header .menu-desktop, header .btn-contato{
+        display: none;
+    }
+
+    
+header .btn-menu-mob{
+    display: block;
+}
+
+}   
+
+@media screen and (max-width: 878px){
+    /* Responsivo da Hero */
+    .hero-site .txt-hero h1{
+        font-size: 2.6em;
+        line-height: 45px;
+    }
+    
+    .hero-site .txt-hero p{
+        font-size: 14px;
+    }
+    
+    .hero-site .txt-hero h1 span{
+        display: inline;
+    }
+    
+    .hero-site button{
+        font-size: 18px;
+    }
+
+    /* Responsivo das curiosidades */
+    .curiosidades .itens-container{
+        flex-direction: column;
+    }
+    
+    .curiosidades .itens-container .img-itens img{
+        width: 100%;
+        border-radius: 20px;
+        justify-content: center;
+    }
+    
+    .curiosidades .itens-container .txt-itens p{
+        margin-bottom: 40px;
+    }
+
+    .curiosidades .itens-container .item-1{
+        order: 1;
+    }
+    
+    .curiosidades .itens-container .item-2{
+        order: 0;
+    }
+    
+    .curiosidades .itens-container .item-3{
+        order: 1;
+    }
+    
+    /* Estilo dos botões de contato */
+    .txt-contato, .icons-contato{
+        display: block;
+        width: 100%;
+    }
+
+.contato .txt-contato h3{
+    font-size: 2em;
+    line-height: 35px;
+}
+
+
+.contato .txt-contato p{
+    margin-bottom: 20px;
+}
+
+    .contato .icons-contato button{
+        width: 100%;
+    }
+
+    /* Estilo de Veículos */
+    .veículos h3{
+        font-size: 2.3em;
+        line-height: 40px;
+    }
+
+    .veículos p{
+        margin: 20px 0;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .veículos button{
+        width: 220px;
+        height: 60px;
+    }
+/* Estilo Nossos parceiros */
+    .txt-parceiros, .instrucoes{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .nossos-parceiros .txt-parceiros{
+        position: static;
+    }
+
+    .nossos-parceiros .txt-parceiros h3{
+        font-size: 3.3em;
+        line-height: 45px;
+    }
+
+    .instrucoes .instru-box{
+       flex-direction: column;
+       text-align: center;
+    }
+
+}
+
+
